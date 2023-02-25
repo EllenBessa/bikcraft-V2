@@ -1,11 +1,10 @@
 .footer-bg {
   background-color: var(--cor-12);
+  padding-top: 60px;
+  padding-bottom: 32px;
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
   gap: 40px;
@@ -38,6 +37,14 @@
 .footer-redes {
   display: flex;
   gap: 32px;
+}
+
+.footer-redes a {
+  transition: all ease-in-out 0.1s;
+}
+
+.footer-redes a:hover {
+  transform: translateY(-6px);
 }
 
 .footer a:hover {
