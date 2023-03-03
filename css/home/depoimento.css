@@ -18,6 +18,10 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
 
+  background-image: url(../../assets/dec/bottom-right-p.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 40px right 40px;
+
   align-self: flex-end;
 }
 
@@ -50,6 +54,12 @@
 
 .depoimento p::after {
   content: "”";
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

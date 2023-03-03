@@ -72,8 +72,11 @@
 }
 
 .contato-formulario {
-  background-color: var(--cor-0);
   border-radius: 0 4px 4px 0;
+  background-color: var(--cor-0);
+  background-image: url("../../assets/dec/bottom-right.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 20px right 20px;
 }
 
 @media (max-width: 800px) {
@@ -87,7 +90,7 @@
   }
 
   .contato-dados {
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 0 0 4px;
   }
 
   .contato-formulario {
